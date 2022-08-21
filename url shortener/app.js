@@ -2,6 +2,8 @@ const express = require("express");
 const req = require("express/lib/request");
 const app = express();
 
+
+
 const bodyParser = require("body-parser")
 app.use(bodyParser.urlencoded({extended:true}))
 
@@ -40,6 +42,7 @@ app.post("/",(req,res)=>{
 
 app.get("/:url",(req,res)=>{
     let hashedURL = String(req.params.url);
+    
 
     console.log(hashedURL)
 

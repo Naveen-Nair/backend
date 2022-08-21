@@ -1,0 +1,12 @@
+<%- include("header") -%>
+
+    <form class="" action="/books_add" method="post">
+        <label>Book Name : </label>
+        <input type="" name="name"  placeholder="name" required autocomplete="off" value=<%= bookdet.name %>>
+      <br />
+        <label>Book Details : </label>
+        <input type="" name="details"  placeholder="details" required autocomplete="off" value=<%= bookdet.details %>>
+      <br />
+      <button type="submit" name="submit">Add Book!</button>
+    </form>
+<%- include("footer") -%>

@@ -1,0 +1,13 @@
+body {
+    margin:0;
+}
+header {
+    padding:20px;
+    background-color:aqua;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.body {
+    padding:10px;
+}
